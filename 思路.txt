@@ -1,0 +1,1 @@
+具体思路（使用proot容器）就是先安装termux，授予存储权限并换pkg源，然后执行inbot.sh文件，inbot.sh流程：更新pkg源->下载proot-distro软件包->使用proot-distro安装Ubuntu系统->移动文件到Ubuntu的/root目录下并写入必要的辅助脚本->进入Ubuntu并运行脚本。辅助脚本：更新源->安装python3、pip、venv、curl、sudo->创建虚拟环境->激活环境->pip install所有模块->额外安装napcat（因为网络原因，安装脚本Ubuntu下载不了，于是我放进压缩包里额外执行）->执行main.py。能出现二维码就是成功了！

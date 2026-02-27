@@ -1,0 +1,6 @@
+# Plugin dependencies
+# Fixed versions based on current installation
+aiohttp
+jmcomic
+img2pdf
+ncatbot
