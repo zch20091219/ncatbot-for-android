@@ -2,11 +2,12 @@
 
 - ncatbot -- 一个基于 [Ncatbot](https://github.com/liyihao1110/Ncatbot) 框架的多功能机器人，集成了多个实用插件
 
-- ncatbotPlugin -- 来源于[ncatbotPlugin](https://github.com/FunEnn/ncatbotPluginhttps://github.com/FunEnn/ncatbotPlugin)
--- [查看详细文档](./ncatbotPlugin/README.md)
+- ncatbotPlugin -- 来源于[ncatbotPlugin](https://github.com/FunEnn/ncatbotPlugin)
+
+- [查看详细文档](./ncatbotPlugin/README.md)
 
 **使用方式**
-- 下载Reseales里的压缩包
+- 下载Reseales里的压缩包(inbot.zip)
 - 将该压缩包内的所有文件移动至内部存储目录下（/sdcard/）(必须移动到内部存储根目录下，千万不要改ncatbotPlugin文件夹的名字)
 - (需要更改机器人菜单描述的打开inbot.sh更改，QQ号执行时会询问)
 - 安装termux(融卡了的话一定要把应用移动到内部存储空间里)
